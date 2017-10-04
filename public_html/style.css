@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/10/2017, 17:39:39
+    Author     : RomarioLima
+*/
+
+h1 {
+    color:#b92c28;
+    
+}
+.row-bordered:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin: 0 15px;
+}
+.car-right{
+    position: absolute;
+    left: auto;
+    right:0;
+    
+}
+.jumbotron.down {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #444;
+}
+.jumbotext {
+    color: white;
+    
+}
+.vcenter {
+    position: absolute;
+    top:50%;
+    margin: auto;
+}
