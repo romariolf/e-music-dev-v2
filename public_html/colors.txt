@@ -1,4 +1,4 @@
 vermelho>vinho: #b92c28
 cinza escuro: #444444
 branco: #ffffff
-vermelho>cinza: #874543
+vermelho>cinza: #87454

@@ -1,16 +1,303 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>e-Music! - Guitarras</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="jquery/jquery.js"> </script>
+        <script src="bootstrap/js/bootstrap.js"> </script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <!-- header -->
+        <div class="jumbotron">
+            <div class ="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        col1
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/id_visual/logo.png" alt="logo" width="128"/>
+                        <h2 class="jumbotext">e-Music!</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="jumbotext"> <a href="login.html"> Minha Conta </a>| <a href="#">Meus Pedidos</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fim do header-->
+        <!-- navbar -->
+        <div class ="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">e-Music!</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Cordas<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="categoria_cordas.html">Guitarra</a></li>
+                                    <li><a href="#">Violão</a></li>
+                                    <li><a href="#">Contrabaixo</a></li>
+                                    <li><a href="#">Viola</a></li>
+                                    <li><a href="#">Cavaquinho</a></li>
+                                    <li><a href="#">Banjo e Mandolin</a></li>
+                                    <li><a href="#">Cavaquinho e Ukelele</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Encordoamenteos</a></li>
+                                    <li><a href="#">Cabos</a></li>
+                                    <li><a href="#">Amplificadores</a></li>
+                                    <li><a href="#">Pedais e Pedaleiras</a></li>
+                                    <li><a href="#">Cases e Bags</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Kits Promocionais</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Teclas</a></li>
+                            <li><a href="#">Percussão</a></li>
+                            <li><a href="#">Sopro</a></li>
+                            <li><a href="#">Áudio</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Pesquisar...">
+                            </div>
+                                <button type="submit" class="btn btn-default">Buscar</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="carrinho.html">
+                                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                  <span class="sr-only">Cart</span>Carrinho de Compras
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>    
+        <!-- fim do navbar-->
+        
+        
+        <!-- header -->
+        <div class ="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                        <li class="list-group-item">1</li>
+                    </ul>
+                </div>
+                    <div class="col-md-9 text-center">
+                        <img src="img/head/b0.jpg" alt="Guitarras" />
+                    </div>
+                </div>
+        <!-- fim header -->
+        
+        
+        <!-- inicio do conteúdo -->
+              
+        
+        <!-- highlights -->
+        <div class="row">
+            <div class ="col-md-12 text-center">
+                <h1>DESTAQUES</h1>
+            </div>
+        </div>
+        <div class="row text-center row-bordered"> 
+            <div class="col-md-3">
+                <img align="center" src="img/a1.jpg" alt="destaque 1" />
+                <p><s>R$ 1899,00</s></p>
+                <h3>por: R$1499,00</h3>
+                <a href="#" class="btn btn-default">Comprar</a>
+                <a href="#" class="btn btn-info">Adicionar ao carrinho</a>
+            </div>
+            <div class="col-md-3">
+                <img src="img/b1.jpg" alt="destaque 2" />
+            </div>
+            <div class="col-md-3">
+                <img src="img/c1.jpg" alt="destaque 3" />
+            </div>
+            <div class="col-md-3">
+                <img src="img/d1.jpg" alt="destaque 4" />
+            </div>
+        </div>
+        
+        <div class="row text-center row-bordered"> 
+            <div class="col-md-3">
+                <img src="img/g1.jpg" alt="destaque 5" />
+            </div>
+            <div class="col-md-3">
+                <img src="img/m1.jpg" alt="destaque 6" />
+            </div>
+            <div class="col-md-3">
+                <img src="img/p1.jpg" alt="destaque 7" />
+            </div>
+            <div class="col-md-3">
+                <img src="img/v1.jpg" alt="destaque 8" />
+            </div>
+        </div>
+        <!-- end highlights -->
+        <div class="row">
+            <div class ="col-md-12 text-center">
+                <h1>OFERTAS</h1>
+            </div>
+        </div>
+        
+        <!-- carousel OFERTAS -->
+            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                <li data-target="#myCarousel2" data-slide-to="2"></li>                
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                
+                <!-- primeiro item do carousel-->
+                <div class="item active">
+                    <div class="row text-center"> 
+                        <div class="col-md-3">
+                            <img align="center" src="img/a2.jpg" alt="oferta 1" />
+                            <p><s>R$ 1899,00</s></p>
+                            <h3>por: R$1499,00</h3>
+                            <a href="#" class="btn btn-default">Comprar</a>
+                            <a href="#" class="btn btn-info">Adicionar ao carrinho</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/b2.jpg" alt="oferta 2" />
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/c2.jpg" alt="oferta 3" />
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/d2.jpg" alt="oferta 4" />
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- segundo item do carousel-->
+                <div class="item">
+                    <div class="row text-center"> 
+                        <div class="col-md-3">
+                            <img align="center" src="img/v8.jpg" alt="oferta 5" />
+                            <p><s>R$ 1899,00</s></p>
+                            <h3>por: R$1499,00</h3>
+                            <a href="#" class="btn btn-default">Comprar</a>
+                            <a href="#" class="btn btn-info">Adicionar ao carrinho</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/b3.jpg" alt="oferta 6" />
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/c3.jpg" alt="oferta 7" />
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/g2.jpg" alt="oferta 8" />
+                        </div>
+
+                    </div>
+                </div>
+                <!-- terceiro item do carousel-->
+                <div class="item">
+                    <div class="row text-center"> 
+                        <div class="col-md-3">
+                            <img align="center" src="img/p2.JPG" alt="oferta 9" />
+                            <p><s>R$ 1899,00</s></p>
+                            <h3>por: R$1499,00</h3>
+                            <a href="#" class="btn btn-default">Comprar</a>
+                            <a href="#" class="btn btn-info">Adicionar ao carrinho</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/v2.jpg" alt="oferta 10" />
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/g3.JPG" alt="oferta 11" />
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/p3.jpg" alt="oferta 12" />
+                        </div>
+                    </div>
+                </div>
+                                    <!-- Left and right controls -->
+                    <a class=" carousel-control" href="#myCarousel2" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="car-right carousel-control" href="#myCarousel2" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+
+            </div>
+        <!-- fim carousel OFERTAS -->
+        <div class="row text-center">
+            <h1 class="text-uppercase">Fale conosco</h1>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h2>0800 765 0909</h2>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2>atendimento@emusic.com.br</h2>
+                </div>
+            </div>
+        </div>
+        <!-- fim container conteudo -->
+        </div> 
+        <div class="jumbotron down">
+            <div class ="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Institucional</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Quem Somos</a></li>
+                            <li class="list-group-item"><a href="#">Nossas Lojas</a></li>
+                            <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                            <li class="list-group-item"><a href="#">Mapa do Site</a></li>
+                        </ul>
+                           
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Área do Cliente</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="login.html">Minha Conta</a></li>
+                            <li class="list-group-item"><a href="carrinho.html">Meu Carrinho</a></li>
+                            <li class="list-group-item"><a href="#">Meus Pedidos</a></li>
+                            <li class="list-group-item"><a href="#">Afiliados</a></li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Compras</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Como Comprar</a></li>
+                            <li class="list-group-item"><a href="#">Formas de Pagamento</a></li>
+                            <li class="list-group-item"><a href="#">Serviços de Entrega</a></li>
+                            <li class="list-group-item"><a href="#">Acompanhe seu pedido</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
