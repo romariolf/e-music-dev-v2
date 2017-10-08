@@ -6,11 +6,214 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>e-Music! - O seu site de instrumentos musicais!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="jquery/jquery.js"> </script>
+        <script src="bootstrap/js/bootstrap.js"> </script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <!-- header -->
+            <div class ="container">
+                <div class=" jumbospecial">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <img src="img/id_visual/logo.png" alt="logo" width="96"/> 
+                            <h2 class="jumbotext"><strong>e-Music!</strong></h2>
+                        </div>
+                        <div class="col-md-4">
+                            <br/>
+                            <br/>
+                            <h5 class="jumbotext text-left">Pesquise no site</h5>                        
+                            <form class="center-row" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Pesquisar...">
+                                </div>
+                                    <button type="submit" class="btn btn-default">Buscar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h4 class="jumbotext"> <a class="link" href="login.html"> Minha Conta </a>| <a class="link" href="#">Meus Pedidos</a></h4>
+                        </div>
+                    </div>
+                </div>    
+                </div>
+        <!-- fim do header-->
+        <!-- navbar -->
+        <div class ="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">e-Music!</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="categoria_cordas.html">Cordas</a></li>
+                            <li><a href="#">Teclas</a></li>
+                            <li><a href="#">Percussão</a></li>
+                            <li><a href="#">Sopro</a></li>
+                            <li><a href="#">Áudio</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="carrinho.html">
+                                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                  <span class="sr-only">Cart</span>Carrinho de Compras <span class="badge">1</span>
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- conteudo -->
+            <div class="row">
+                <div class="col-md-6 ">
+                    <!-- carousel BANNER -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/produto/p1.jpg" alt="slide 1">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/produto/p2.jpg" alt="slide 2">
+                                </div>
+                            </div>
+                            <p>Imagens meramente ilustrativas</p>
+
+                            <!-- Left and right controls -->
+                            <a class="left " href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right " href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            </div>
+                        <!-- fim carousel BANNER -->
+                        
+                </div>
+                
+                <div class="col-md-6">
+                    <h1>Violão Folk Takamine GD 71 CE</h1>
+                    <h2>por R$ 2.359,90</h2>
+                    <br />
+                    <p> ou até 12x de R$ 196,66,17 sem juros</p>
+                    <h3 class="red">R$ 2.241,90 à vista</h3>
+                    <p>Pague à vista e economize: R$ 118,00</p>
+                    
+                    <br/>
+                    <br/>
+                    <a href="#" class="btn btn-info ">Adicionar ao Carrinho</a>
+                    <a href="carrinho.html" class="btn btn-primary ">Comprar agora</a>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Descrição</h2>
+                    </div>
+                </div>
+                <div class="row row-bordered">
+                    <div class="col-md-12">
+                        <h5>Violão Folk Takamine GD 71 CE</h5>
+                            <p>A Takamine é uma das marcas mais conceituadas de violões no mundo. 
+                            Seus produtos são fabricados com madeiras nobres e ferragens da mais alta qualidade. 
+                            Utilizado por diversos artistas de diversos gêneros, desde sertanejo até rock and roll. 
+                            Alguns artistas nacionais como: Edson (Edson e Hudson), Gilberto Gil, Felipe Andreoli, 
+                            Kiko Loureiro e internacionais como: Garth Brooks, Bruce Springsteen, Jon Bon Jovi, Avril Lavigne, 
+                            Linkin Park, não abrem mão da qualidade Takamine e em suas apresentações.
+                            O Violão Takamine GD 71 é um violão no formato Folk de 6 cordas, que possui o corpo em Rosewood e tampo 
+                            em Solid Spruce, braço em Mahogany com 20 trastes, escala e ponte em Rosewood, Pré TK-40 com sintonizador 
+                            e tarraxas Douradas/Ambar Die-Cast.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Especificações</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li>Modelo: GD 71 CE</li>
+                            <li>Código fornecedor: 223344</li>
+                            <li>Linha: Folk G-Series</li>
+                            <li>Corte do corpo: Folk</li>
+                            <li>Tipo: Eletroácustico</li>
+                            <li>Número de cordas: 6</li>
+                            <li>Cor: Natural</li>
+                            <li>Tampo: Solid Spruce</li>
+                            <li>Corpo: Rosewood</li>
+                            <li>Escala: Rosewood</li>
+                            <li>Tarraxa: Die- Cast Dourada/Ambar</li>
+                            <li>Pré: TK-40 com sintonizador embutido</li>
+                        </ul>
+
+                        <h5>Conteúdo da Embalagem:</h5>
+                            - 01 Violão
+                        <h5> Outras Informações:</h5>
+                            - Garantia: 03 meses
+                    </div>
+                </div>
+            <!-- fim conteúdo -->
+            </div>
+            
+            
+        </div>  
+        <!--footer-->
+        <div class="jumbotron down">
+            <div class ="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Institucional</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Quem Somos</a></li>
+                            <li class="list-group-item"><a href="#">Nossas Lojas</a></li>
+                            <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                            <li class="list-group-item"><a href="#">Mapa do Site</a></li>
+                        </ul>
+                           
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Área do Cliente</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="login.html">Minha Conta</a></li>
+                            <li class="list-group-item"><a href="carrinho.html">Meu Carrinho</a></li>
+                            <li class="list-group-item"><a href="#">Meus Pedidos</a></li>
+                            <li class="list-group-item"><a href="#">Afiliados</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Compras</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Como Comprar</a></li>
+                            <li class="list-group-item"><a href="#">Formas de Pagamento</a></li>
+                            <li class="list-group-item"><a href="#">Serviços de Entrega</a></li>
+                            <li class="list-group-item"><a href="#">Acompanhe seu pedido</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
 </html>

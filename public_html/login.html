@@ -6,11 +6,168 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>e-Music! - O seu site de instrumentos musicais!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="jquery/jquery.js"> </script>
+        <script src="bootstrap/js/bootstrap.js"> </script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <!-- header -->
+            <div class ="container">
+                <div class=" jumbospecial">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <img src="img/id_visual/logo.png" alt="logo" width="96"/> 
+                            <h2 class="jumbotext"><strong>e-Music!</strong></h2>
+                        </div>
+                        <div class="col-md-4">
+                            <br/>
+                            <br/>
+                            <h5 class="jumbotext text-left">Pesquise no site</h5>                        
+                            <form class="center-row" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Pesquisar...">
+                                </div>
+                                    <button type="submit" class="btn btn-default">Buscar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h4 class="jumbotext"> <a class="link" href="login.html"> Minha Conta </a>| <a class="link" href="#">Meus Pedidos</a></h4>
+                        </div>
+                    </div>
+                </div>    
+                </div>
+        <!-- fim do header-->
+        <!-- navbar -->
+        <div class ="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">e-Music!</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="categoria_cordas.html">Cordas</a></li>
+                            <li><a href="#">Teclas</a></li>
+                            <li><a href="#">Percussão</a></li>
+                            <li><a href="#">Sopro</a></li>
+                            <li><a href="#">Áudio</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="carrinho.html">
+                                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                  <span class="sr-only">Cart</span>Carrinho de Compras
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- conteudo -->
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="form-horizontal">
+                      <fieldset>
+                        <legend>Já sou cadastrado</legend>
+                        <div class="form-group">
+                          <label for="inputEmail" class="col-lg-2 control-label">Informe seu e-mail</label>
+                          <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="E-mail">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputPassword" class="col-lg-2 control-label">Informe sua senha</label>
+                          <div class="col-lg-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-lg-10 col-lg-offset-2">
+                            <button type="reset" class="btn btn-default">Esqueci minha senha</button>
+                            <button type="submit" class="btn btn-primary">Entrar</button>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                </div>
+                
+                <div class="col-md-6">
+                    <form class="form-horizontal">
+                      <fieldset>
+                        <legend>Quero me cadastrar</legend>
+                        <div class="form-group">
+                          <label for="inputEmail" class="col-lg-2 control-label">Informe seu e-mail</label>
+                          <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="E-mail">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-lg-10 col-lg-offset-2">
+                            <button type="submit" class="btn btn-primary">Cadastrar</button>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                </div>
+                          
+            <!-- fim conteúdo -->
+            </div>
+            
+            
+        </div>  
+        <!--footer-->
+        <div class="jumbotron down">
+            <div class ="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Institucional</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Quem Somos</a></li>
+                            <li class="list-group-item"><a href="#">Nossas Lojas</a></li>
+                            <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                            <li class="list-group-item"><a href="#">Mapa do Site</a></li>
+                        </ul>
+                           
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Área do Cliente</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="login.html">Minha Conta</a></li>
+                            <li class="list-group-item"><a href="carrinho.html">Meu Carrinho</a></li>
+                            <li class="list-group-item"><a href="#">Meus Pedidos</a></li>
+                            <li class="list-group-item"><a href="#">Afiliados</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Compras</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Como Comprar</a></li>
+                            <li class="list-group-item"><a href="#">Formas de Pagamento</a></li>
+                            <li class="list-group-item"><a href="#">Serviços de Entrega</a></li>
+                            <li class="list-group-item"><a href="#">Acompanhe seu pedido</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
 </html>

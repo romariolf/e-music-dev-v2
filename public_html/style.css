@@ -35,7 +35,33 @@ h1 {
     
 }
 .vcenter {
-    position: absolute;
     top:50%;
+}
+.center-row{
+    vertical-align: middle;
+}
+.jumbospecial{
+    background-color: #b92c28;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 15px;   
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: pink;
+}
+.vtext{
+    vertical-align: middle;
+}
+.blue{
+    color:#3333ff;
+    
+}
+.red{
+    color:#b92c28;
+}
+.c-center{
     margin: auto;
 }

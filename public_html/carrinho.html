@@ -6,11 +6,234 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>e-Music! - O seu site de instrumentos musicais!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="jquery/jquery.js"> </script>
+        <script src="bootstrap/js/bootstrap.js"> </script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <!-- header -->
+            <div class ="container">
+                <div class=" jumbospecial">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <img src="img/id_visual/logo.png" alt="logo" width="96"/> 
+                            <h2 class="jumbotext"><strong>e-Music!</strong></h2>
+                        </div>
+                        <div class="col-md-4">
+                            <br/>
+                            <br/>
+                            <h5 class="jumbotext text-left">Pesquise no site</h5>                        
+                            <form class="center-row" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Pesquisar...">
+                                </div>
+                                    <button type="submit" class="btn btn-default">Buscar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h4 class="jumbotext"> <a class="link" href="login.html"> Minha Conta </a>| <a class="link" href="#">Meus Pedidos</a></h4>
+                        </div>
+                    </div>
+                </div>    
+                </div>
+        <!-- fim do header-->
+        <!-- navbar -->
+        <div class ="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">e-Music!</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="categoria_cordas.html">Cordas</a></li>
+                            <li><a href="#">Teclas</a></li>
+                            <li><a href="#">Percussão</a></li>
+                            <li><a href="#">Sopro</a></li>
+                            <li><a href="#">Áudio</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="carrinho.html">
+                                  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                  <span class="sr-only">Cart</span>Carrinho de Compras <span class="badge">1</span>
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- conteudo -->
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <p>Produto</p>
+                    
+                </div>
+
+                <div class="col-md-1">
+                    <p>Quantidade</p>
+                    
+    
+                </div>
+                
+                <div class="col-md-1">
+                    <p>Presente?</p>
+    
+                    
+                </div>
+                
+                <div class="col-md-1">
+                    <p>Excluir</p>
+                    
+    
+                </div>
+                
+                <div class="col-md-1">
+                    <p>Valor unitário</p>
+                    
+    
+                </div>
+                
+                <div class="col-md-2">
+                    <p>Subtotal</p>
+    
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h4> <a href="produto_detalhe.html">Violão Takamine GD 71 CE Natural Ref. 223344</a></h4>
+                    
+                </div>
+
+                <div class="col-md-1">
+                    <form>
+                        <input class="form-control vcenter" type="text" value="1">
+                    </form>
+                </div>
+                
+                <div class="col-md-1">
+                    <input type="checkbox">
+                </div>
+                
+                <div class="col-md-1">
+                    <a href="#" class="btn btn-primary ">Excluir</a>
+                </div>
+                
+                <div class="col-md-1">
+                    <h4>2.359,90</h4>
+                    
+    
+                </div>
+                
+                <div class="col-md-2">
+                    <h4 class="blue"> R$ 2.359,90</h4>
+    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Opções de frete:</p>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-6">
+                     <h4 class="text-right"> Insira seu CEP:</h4>
+                </div>
+                
+                <div class="col-md-2 ">
+                        <form>
+                           <input class="form-control vcenter" type="text" value="12229-411">
+                        </form>
+                    
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-default">Calcular</a>
+                </div>
+                <div class="col-md-2 text-center">
+                    <h4 class="vcenter">R$ 27,90</h4>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-9">
+                    
+                </div>
+                
+                <div class="col-md-1">
+                    <h4>Subtotal</h4>
+                    
+                </div>
+                <div class="col-md-2 ">
+                    <h4 class="red">R$ 2.387,80</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                     <a href="index.html" class="btn btn-default">Comprar mais</a>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" class="btn btn-primary ">Finalizar compra</a>
+                </div>
+            </div>
+                 
+            <!-- fim conteúdo -->
+            </div>
+            
+            
+        
+        <!--footer-->
+        <div class="jumbotron down">
+            <div class ="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Institucional</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Quem Somos</a></li>
+                            <li class="list-group-item"><a href="#">Nossas Lojas</a></li>
+                            <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                            <li class="list-group-item"><a href="#">Mapa do Site</a></li>
+                        </ul>
+                           
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Área do Cliente</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="login.html">Minha Conta</a></li>
+                            <li class="list-group-item"><a href="carrinho.html">Meu Carrinho</a></li>
+                            <li class="list-group-item"><a href="#">Meus Pedidos</a></li>
+                            <li class="list-group-item"><a href="#">Afiliados</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="list-group text-left">Compras</h4>
+                        <ul class="text-left">
+                            <li class="list-group-item"><a href="#">Como Comprar</a></li>
+                            <li class="list-group-item"><a href="#">Formas de Pagamento</a></li>
+                            <li class="list-group-item"><a href="#">Serviços de Entrega</a></li>
+                            <li class="list-group-item"><a href="#">Acompanhe seu pedido</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
 </html>
